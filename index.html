@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmay & Priyanka - Wedding</title>
+    <meta name="description" content="Join us in celebrating the wedding of Chinmay & Priyanka on November 30, 2025">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="IMAGE/a (1).jpg" as="image">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#story" class="nav-link">Our Story</a>
+            <a href="#photos" class="nav-link">Photos</a>
+            <a href="#events" class="nav-link">Events</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="geometric-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="home-content">
+            <div class="wedding-invitation">
+                <p class="invitation-text">Together with our families, we invite you to celebrate</p>
+                <h1 class="couple-names">Chinmay <i class="fas fa-heart"></i> Priyanka</h1>
+                <p class="wedding-date">30th November 2025</p>
+                
+                <!-- Countdown Timer -->
+                <div class="home-countdown" id="homeCountdown">
+                    <div class="countdown-box">
+                        <span class="countdown-num" id="homeDays">0</span>
+                        <span class="countdown-text">Days</span>
+                    </div>
+                    <div class="countdown-box">
+                        <span class="countdown-num" id="homeHours">0</span>
+                        <span class="countdown-text">Hours</span>
+                    </div>
+                    <div class="countdown-box">
+                        <span class="countdown-num" id="homeMinutes">0</span>
+                        <span class="countdown-text">Minutes</span>
+                    </div>
+                </div>
+                
+                <!-- Quick Event Info -->
+                <div class="quick-events">
+                    <div class="quick-event">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Wedding: 30 Nov 2025</span>
+                    </div>
+                    <div class="quick-event">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Surat & Ahmedabad</span>
+                    </div>
+                </div>
+                
+                <div class="home-buttons">
+                    <button class="story-btn" onclick="scrollToSection('story')">Our Story</button>
+                    <button class="events-btn" onclick="scrollToSection('events')">View Events</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="story-section">
+        <div class="story-overlay"></div>
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="story-content">
+                <p>It all began on 3rd November 2013, an ordinary day with no hint that something extraordinary was about to happen. A simple random chat—no special plans, no expectations—just two people connecting through words on a screen.</p>
+                
+                <p>At first, it was light conversation: jokes, little stories, and the kind of questions you ask when you're still strangers. But there was something different… a spark hidden in the pauses, an invisible pull in the flow of words.</p>
+                
+                <p>Days turned into weeks, messages turned into calls, and calls turned into hours of laughter, shared dreams, and comfort. Priyanka found in Chinmay not just someone to talk to, but someone who listened. Chinmay discovered that Priyanka had a way of making the world feel warmer and brighter.</p>
+                
+                <p>They met, they laughed, they explored, and slowly, without even realizing it, they fell in love. Through the years, they celebrated milestones, faced challenges, and stood by each other's side—growing not just as individuals, but as partners.</p>
+                
+                <p>Their story became more than romance; it became friendship, family, and faith in each other. And now, after all these years since that random chat, Priyanka and Chinmay are stepping into the most beautiful chapter of their love story…</p>
+                
+                <p><strong>On 30th November 2025, they will say I do, promising to walk together through every sunrise and sunset, every joy and challenge, forever.</strong></p>
+                
+                <p><em>Because sometimes, all it takes is one ordinary moment to start the most extraordinary journey of your life.</em></p>
+                
+                <div class="story-highlight">
+                    <h3>Chinmay <i class="fas fa-heart"></i> Priyanka</h3>
+                    <p>From 3/11/2013 to 30/11/2025… and Always.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos" class="photos-section">
+        <div class="floating-elements">
+            <div class="float-heart">💕</div>
+            <div class="float-ring">💍</div>
+            <div class="float-flower">🌸</div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Our Memories</h2>
+            <div class="photo-grid">
+                <div class="photo-item" onclick="openLightbox(0)"><img loading="lazy" src="IMAGE/a (1).jpg" alt="Wedding Photo 1"></div>
+                <div class="photo-item" onclick="openLightbox(1)"><img loading="lazy" src="IMAGE/a (2).jpg" alt="Wedding Photo 2"></div>
+                <div class="photo-item" onclick="openLightbox(2)"><img loading="lazy" src="IMAGE/a (3).jpg" alt="Wedding Photo 3"></div>
+                <div class="photo-item" onclick="openLightbox(3)"><img loading="lazy" src="IMAGE/a (4).jpg" alt="Wedding Photo 4"></div>
+                <div class="photo-item" onclick="openLightbox(4)"><img loading="lazy" src="IMAGE/a (5).jpg" alt="Wedding Photo 5"></div>
+                <div class="photo-item" onclick="openLightbox(5)"><img loading="lazy" src="IMAGE/a (6).jpg" alt="Wedding Photo 6"></div>
+                <div class="photo-item" onclick="openLightbox(6)"><img loading="lazy" src="IMAGE/a (7).jpg" alt="Wedding Photo 7"></div>
+                <div class="photo-item" onclick="openLightbox(7)"><img loading="lazy" src="IMAGE/a (9).jpg" alt="Wedding Photo 8"></div>
+                <div class="photo-item" onclick="openLightbox(8)"><img loading="lazy" src="IMAGE/a (10).jpg" alt="Wedding Photo 9"></div>
+                <div class="photo-item" onclick="openLightbox(9)"><img loading="lazy" src="IMAGE/a (11).jpg" alt="Wedding Photo 10"></div>
+                <div class="photo-item" onclick="openLightbox(10)"><img loading="lazy" src="IMAGE/a (12).jpg" alt="Wedding Photo 11"></div>
+                <div class="photo-item" onclick="openLightbox(11)"><img loading="lazy" src="IMAGE/a (13).jpg" alt="Wedding Photo 12"></div>
+                <div class="photo-item" onclick="openLightbox(12)"><img loading="lazy" src="IMAGE/a (16).jpg" alt="Wedding Photo 13"></div>
+                <div class="photo-item" onclick="openLightbox(13)"><img loading="lazy" src="IMAGE/a (19).jpg" alt="Wedding Photo 14"></div>
+                <div class="photo-item" onclick="openLightbox(14)"><img loading="lazy" src="IMAGE/a (20).jpg" alt="Wedding Photo 15"></div>
+                <div class="photo-item" onclick="openLightbox(15)"><img loading="lazy" src="IMAGE/a (21).jpg" alt="Wedding Photo 16"></div>
+                <div class="photo-item" onclick="openLightbox(16)"><img loading="lazy" src="IMAGE/a (23).jpg" alt="Wedding Photo 17"></div>
+                <div class="photo-item" onclick="openLightbox(17)"><img loading="lazy" src="IMAGE/a (25).jpg" alt="Wedding Photo 18"></div>
+                <div class="photo-item" onclick="openLightbox(18)"><img loading="lazy" src="IMAGE/a (26).jpg" alt="Wedding Photo 19"></div>
+                <div class="photo-item" onclick="openLightbox(19)"><img loading="lazy" src="IMAGE/a (27).jpg" alt="Wedding Photo 20"></div>
+                <div class="photo-item" onclick="openLightbox(20)"><img loading="lazy" src="IMAGE/a (28).jpg" alt="Wedding Photo 21"></div>
+                <div class="photo-item" onclick="openLightbox(21)"><img loading="lazy" src="IMAGE/a (32).jpg" alt="Wedding Photo 22"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-ring"></i> C & P – Schedule of Events</h2>
+            
+            <div class="event-card">
+                <h3>Wedding Ceremony – Sunday, 30 November 2025</h3>
+                <div class="event-details">
+                    <div class="event-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>10:00 AM – Baraat</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/?q=D/62, Ananya Bungalows, Ishanpur, Maninagar, Ahmedabad" target="_blank" class="location-link">D/62, Ananya Bungalows, Ishanpur, Maninagar, Ahmedabad</a></p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>8:30 PM – Wedding Ceremony</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/?q=Green Fusion Hotel, Gaurav Path Road, Surat" target="_blank" class="location-link">Green Fusion Hotel, Gaurav Path Road, Surat</a></p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <i class="fas fa-utensils"></i>
+                        <div>
+                            <h4>7:00 PM to 10:30 PM – Dinner</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/?q=Green Fusion Hotel, Gaurav Path Road, Surat" target="_blank" class="location-link">Green Fusion Hotel (Banquet Hall)</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <h3>Wedding Reception – Tuesday, 2 December 2025</h3>
+                <div class="event-details">
+                    <div class="event-item">
+                        <i class="fas fa-glass-cheers"></i>
+                        <div>
+                            <h4>6:00 PM to 11:00 PM</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/?q=Novotel Hotel, S.G. Highway, Ahmedabad" target="_blank" class="location-link">Novotel Hotel, S.G. Highway, Ahmedabad</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <h3><i class="fas fa-bed"></i> Accommodation</h3>
+                <div class="event-details">
+                    <div class="event-item">
+                        <i class="fas fa-hotel"></i>
+                        <div>
+                            <h4>The Long - D Hotel</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/?q=The Long D Hotel, Iscon Mall, service Road, Dumas Rd, Piplod, Surat, Gujarat 395007" target="_blank" class="location-link">Iscon Mall, Service Road, Dumas Rd, Piplod, Surat, Gujarat 395007</a></p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <i class="fas fa-calendar-check"></i>
+                        <div>
+                            <h4>Check-In: Sunday, November 30, 2025</h4>
+                            <p>Check-Out: Monday, December 1, 2025</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <i class="fas fa-id-card"></i>
+                        <div>
+                            <h4>Important Note</h4>
+                            <p>Please present a valid ID proof at check-in. Check-in may not be possible without required ID proof.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="monogram">C <i class="fas fa-heart"></i> P</div>
+            <p class="footer-quote">"Together is a beautiful place to be."</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+        <div class="lightbox-nav">
+            <button onclick="prevImage()"><i class="fas fa-chevron-left"></i></button>
+            <button onclick="nextImage()"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
