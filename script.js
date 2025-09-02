@@ -61,7 +61,8 @@ const images = [
     'IMAGE/a (12).jpg', 'IMAGE/a (13).jpg', 'IMAGE/a (16).jpg', 'IMAGE/a (19).jpg', 'IMAGE/a (20).jpg',
     'IMAGE/a (21).jpg', 'IMAGE/a (23).jpg', 'IMAGE/a (25).jpg', 'IMAGE/a (26).jpg', 'IMAGE/a (27).jpg',
     'IMAGE/a (28).jpg', 'IMAGE/a (32).jpg', 'IMAGE/IMG_0333.JPG', 'IMAGE/IMG_0334.JPG', 'IMAGE/IMG_0336.JPG',
-    'IMAGE/IMG_0693.JPG', 'IMAGE/IMG_1732.JPG', 'IMAGE/IMG_2514.JPG'
+    'IMAGE/IMG_0693.JPG', 'IMAGE/IMG_1732.JPG', 'IMAGE/IMG_2514.JPG', 'IMAGE/IMG_3345.JPG', 'IMAGE/IMG_3346.JPG',
+    'IMAGE/IMG_3347.JPG', 'IMAGE/a (35).jpg', 'IMAGE/a (36).jpg'
 ];
 
 function openLightbox(index) {
