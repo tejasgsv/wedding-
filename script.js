@@ -148,16 +148,6 @@ function initAnimations() {
     }
 }
 
-// Image loading optimization
-function optimizeImageLoading() {
-    const images = document.querySelectorAll('img[loading="lazy"]');
-    images.forEach(img => {
-        img.addEventListener('load', () => {
-            img.classList.add('loaded');
-        });
-    });
-}
-
 // Event listeners
 window.addEventListener('scroll', () => {
     updateActiveNav();
@@ -168,7 +158,6 @@ window.addEventListener('load', () => {
     initAnimations();
     animateOnScroll();
     updateCountdown();
-    optimizeImageLoading();
 });
 
 // Update countdown every second
